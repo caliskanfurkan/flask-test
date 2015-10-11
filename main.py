@@ -3,7 +3,7 @@
 from flask import Flask, render_template, request, redirect, url_for, abort, session
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'K1fmop234##24'
+app.config['SECRET_KEY'] = 'dwd##24'
 
 @app.route('/')
 def home():
